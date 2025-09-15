@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Howdrian/my-personal-blog
   branch: main
 
 media_folder: 'public/static/images'
