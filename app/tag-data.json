@@ -1,4 +1,7 @@
 {
+  "博客管理": 1,
+  "nextjs": 2,
+  "mdx": 1,
   "markdown": 1,
   "code": 1,
   "features": 1,
@@ -8,8 +11,6 @@
   "github": 1,
   "guide": 5,
   "tailwind": 3,
-  "hello": 1,
-  "nextjs": 1,
   "react": 1,
   "前端开发": 1,
   "技术": 1,
