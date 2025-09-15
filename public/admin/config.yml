@@ -1,8 +1,13 @@
+# NetlifyCMS配置
+# 注意：此配置需要在Netlify上部署才能正常工作
+# 如果部署在Vercel，建议使用其他CMS方案
+
 backend:
   name: github
   repo: Howdrian/my-personal-blog
   branch: main
-  auth_type: implicit
+  # 以下配置仅在Netlify部署时有效
+  # auth_type: implicit
 
 media_folder: 'public/static/images'
 public_folder: '/static/images'
