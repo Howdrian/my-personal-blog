@@ -1,0 +1,19 @@
+fragment BlogParts on Blog {
+  __typename
+  title
+  date
+  tags
+  draft
+  summary
+  body
+}
+
+fragment AuthorsParts on Authors {
+  __typename
+  name
+  avatar
+  occupation
+  company
+  email
+  body
+}
