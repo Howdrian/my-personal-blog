@@ -5,6 +5,7 @@
   "scripts": {
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
+    "tina:dev": "tinacms dev -c \"npm run dev\"",
     "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
@@ -17,6 +18,7 @@
     "@tailwindcss/forms": "^0.5.9",
     "@tailwindcss/postcss": "^4.0.5",
     "@tailwindcss/typography": "^0.5.15",
+    "@tinacms/cli": "^1.10.3",
     "body-scroll-lock": "^4.0.0-beta.0",
     "contentlayer2": "0.5.5",
     "esbuild": "0.25.2",
@@ -44,6 +46,7 @@
     "remark-github-blockquote-alert": "^1.2.1",
     "remark-math": "^6.0.0",
     "tailwindcss": "^4.0.5",
+    "tinacms": "^2.8.3",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
