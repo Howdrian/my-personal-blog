@@ -6,8 +6,8 @@ backend:
   name: github
   repo: Howdrian/my-personal-blog
   branch: main
-  # 以下配置仅在Netlify部署时有效
-  # auth_type: implicit
+  auth_type: pkce
+  app_id: Ov23liTbWaFCUS1OuX3o
 
 media_folder: 'public/static/images'
 public_folder: '/static/images'
