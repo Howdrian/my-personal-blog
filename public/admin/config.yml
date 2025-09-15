@@ -2,6 +2,7 @@ backend:
   name: github
   repo: Howdrian/my-personal-blog
   branch: main
+  auth_type: implicit
 
 media_folder: 'public/static/images'
 public_folder: '/static/images'
