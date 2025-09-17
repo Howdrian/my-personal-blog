@@ -1,8 +1,8 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "yarn build",
   "outputDirectory": ".next",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
+  "devCommand": "yarn dev",
+  "installCommand": "yarn install",
   "framework": "nextjs",
   "functions": {
     "app/**": {
@@ -35,13 +35,6 @@
           "value": "1; mode=block"
         }
       ]
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/admin",
-      "destination": "/admin/index.html",
-      "permanent": false
     }
   ]
 }
